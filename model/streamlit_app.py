@@ -111,7 +111,7 @@ def price_prediction(location, sqft, bath, bhk):
     return max(predicted_price, 0)
 
 # Streamlit UI
-st.title("Bengaluru House Price Prediction")
+st.title("Real-Estate Price Prediction in Bengaluru")
 
 st.write("""
 ### Enter the details of the house:
